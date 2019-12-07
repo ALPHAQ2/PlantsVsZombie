@@ -1,9 +1,6 @@
 package sample;
 
-import javafx.application.Platform;
 import javafx.geometry.Insets;
-import javafx.scene.Node;
-import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
@@ -66,9 +63,6 @@ public class MenuController implements Serializable {
                 }
             });
 
-
-//            Stage primaryStage = (Stage) ((Node)event.getSource()).getScene().getWindow();
-//            primaryStage.setScene(new Scene(new GameController().getRoot(), 1530, 888));
         });
         Button resumeButton = new Button("Resume Game");
         resumeButton.setGraphic(new ImageView(new Image("ButtonImg.png", 100, 140, true, true)));
@@ -88,7 +82,6 @@ public class MenuController implements Serializable {
                 try {
                     u = User.deserialize(usrname);
                 } catch (IOException ex) {
-//                    ex.printStackTrace();
                     dialog.close();
                     Alert alert = new Alert(Alert.AlertType.ERROR);
                     alert.setTitle("Error");
@@ -101,11 +94,9 @@ public class MenuController implements Serializable {
                 if(u != null) u.chooseLevel();
             });
         });
-//        Button levelButton = new Button("Choose Level");
         exitButton.setOnMouseClicked(e->{
             Main.getPrimaryStage().close();
         });
-//        menu.getChildren().addAll(startButton, resumeButton, levelButton, exitButton);
         menu.getChildren().addAll(startButton);
         menu1.getChildren().add(resumeButton);
         menu3.getChildren().add(exitButton);

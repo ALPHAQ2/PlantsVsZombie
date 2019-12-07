@@ -7,10 +7,6 @@ import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.util.Duration;
 
-import java.io.Serializable;
-
-import static java.lang.System.currentTimeMillis;
-
 public class Sun {
     private final int row, col;
     private final double x;

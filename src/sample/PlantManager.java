@@ -38,5 +38,4 @@ public class PlantManager implements Serializable {
     }
 
     public ArrayList<Plant> getPlants(){return plants;}
-
 }

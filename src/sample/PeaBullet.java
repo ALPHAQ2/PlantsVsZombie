@@ -1,7 +1,5 @@
 package sample;
 
-import javafx.scene.image.Image;
-
 import static java.lang.System.currentTimeMillis;
 
 public class PeaBullet extends Plant {

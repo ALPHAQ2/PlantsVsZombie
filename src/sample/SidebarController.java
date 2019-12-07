@@ -32,10 +32,10 @@ public class SidebarController implements Serializable {
     private int sunToken;
     private transient Label sunCounter;
     private long lastUpdate;
-    private final long peaTimeLimit = 5000000;
-    private final long sunTimeLimit = 5000000;
-    private final long wallnutTimeLimit = 5000000;
-    private final long cherryTimeLimit = 5000000;
+    private final long peaTimeLimit = 9000000;
+    private final long sunTimeLimit = 9000000;
+    private final long wallnutTimeLimit = 9000000;
+    private final long cherryTimeLimit = 9000000;
     private final int peaCost = 100;
     private final int sunCost = 50;
     private final int wallnutCost = 50;

@@ -9,7 +9,6 @@ public class ConeHeadZombie extends Zombie {
 
     ConeHeadZombie(int row){
         super(row);
-//        super.setHealth(health);
     }
     @Override
     public void setBlocked(boolean b){

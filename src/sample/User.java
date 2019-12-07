@@ -18,8 +18,6 @@ public class User implements Serializable {
     public void play(){
         gc.initialise();
         gc.play();
-//        gc = null;
-//        chooseLevel();
     }
 
     public void play(int level){

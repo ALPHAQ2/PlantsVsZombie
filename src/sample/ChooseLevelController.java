@@ -12,7 +12,6 @@ import javafx.scene.media.MediaPlayer;
 import javafx.scene.paint.ImagePattern;
 
 import java.io.File;
-import java.io.Serializable;
 
 public class ChooseLevelController {
 
