@@ -1,4 +1,4 @@
-package sample;
+package plantsVsZombies;
 
 import static java.lang.System.currentTimeMillis;
 

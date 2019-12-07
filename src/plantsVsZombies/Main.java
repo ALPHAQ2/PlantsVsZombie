@@ -1,4 +1,4 @@
-package sample;
+package plantsVsZombies;
 
 import javafx.application.Application;
 import javafx.scene.Scene;

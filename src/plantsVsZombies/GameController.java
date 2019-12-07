@@ -1,4 +1,4 @@
-package sample;
+package plantsVsZombies;
 
 import javafx.animation.AnimationTimer;
 import javafx.geometry.Insets;
@@ -31,7 +31,7 @@ import java.util.ArrayList;
 
 import static java.lang.Math.abs;
 import static java.lang.System.currentTimeMillis;
-import static sample.SidebarController.*;
+import static plantsVsZombies.SidebarController.*;
 
 public class GameController implements Serializable {
     private transient Pane pane;

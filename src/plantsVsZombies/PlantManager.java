@@ -1,4 +1,4 @@
-package sample;
+package plantsVsZombies;
 
 import java.io.Serializable;
 import java.util.ArrayList;

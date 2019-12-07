@@ -1,4 +1,4 @@
-package sample;
+package plantsVsZombies;
 
 import javafx.geometry.Insets;
 import javafx.scene.Scene;
